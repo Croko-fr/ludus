@@ -165,6 +165,7 @@
           [defaults]
           no_target_syslog = True
           timeout = 60
+          callbacks_enabled = profile_tasks
         mode: '0644'
 
     - name: Remove unattended-upgrades
