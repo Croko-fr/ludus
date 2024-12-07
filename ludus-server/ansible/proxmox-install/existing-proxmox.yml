@@ -62,6 +62,7 @@
           [defaults]
           no_target_syslog = True
           timeout = 60
+          callbacks_enabled = profile_tasks
         mode: '0644'
 
     - name: Configure dnsmasq (part 1) - setup base config
